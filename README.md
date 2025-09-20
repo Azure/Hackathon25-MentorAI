@@ -1,10 +1,9 @@
-# Getting Started with Agents Using Azure AI Foundry
+# AI Agent for Mentoing team members
+**MentorAI** is your AI peer—designed to guide, support, and empower you throughout your journey in the team. Whether you're onboarding, skilling up, navigating internal processes, or seeking help with team-specific tasks, MentorAI is always there to assist.
 
-The agent leverages the Azure AI Agent service and utilizes file search for knowledge retrieval from uploaded files, enabling it to generate responses with citations. The solution also includes built-in monitoring capabilities with tracing to ensure easier troubleshooting and optimized performance.
+Built for remote and hybrid work environments, MentorAI delivers personalized, role-based learning journeys and real-time guidance. It integrates seamlessly with internal resources and uses Azure AI technologies to provide contextual support tailored to your role, team, and goals.
 
-<div style="text-align:center;">
-
-[**SOLUTION OVERVIEW**](#solution-overview) \| [**GETTING STARTED**](#getting-started) \| [**LOCAL DEVELOPMENT**](#local-development) \| [**RESOURCE CLEAN-UP**](#resource-clean-up) \| [**GUIDANCE**](#guidance) \| [**TROUBLESHOOTING**](./docs/troubleshooting.md)
+Think of it as a mentor you can reach out to anytime—whether you're part of a mission-critical team or working in SFMC. It won’t overwhelm you with tons of information. Instead, it offers just what you need, when you need it, helping you stay engaged, confident, and successful.
 
 </div>
 
@@ -26,23 +25,14 @@ The app code runs in Azure Container App to process the user input and generate 
 
 ### Key Features
 
-- **[Knowledge Retrieval](./docs/deploy_customization.md#enabling-and-disabling-resources-provision)**<br/>
-The AI agent uses file search or Azure AI Search to retrieve knowledge from uploaded files.
-
-- **[Customizable AI Model Deployment](./docs/deploy_customization.md#customizing-model-deployments)**<br/>
-The solution allows users to configure and deploy AI models, such as gpt-4o-mini, with options to adjust model capacity, and knowledge retrieval methods.
-
-- **[Built-in Monitoring and Tracing](./docs/other_features.md#tracing-and-monitoring)**<br/>
-Integrated monitoring capabilities, including Azure Monitor and Application Insights, enable tracing and logging for easier troubleshooting and performance optimization.
-
-- **[Flexible Deployment Options](./docs/deployment.md)**<br/>
-The solution supports deployment through GitHub Codespaces, VS Code Dev Containers, or local environments, providing flexibility for different development workflows.
-
-- **[Agent Evaluation](./docs/other_features.md#agent-evaluation)**<br/>
-This solution demonstrates how you can evaluate your agent's performance and quality during local development and incorporate it into monitoring and CI/CD workflow.
-
-- **[AI Red Teaming Agent](./docs/other_features.md#ai-red-teaming-agent)**<br/>
-Facilitates the creation of an AI Red Teaming Agent that can run batch automated scans for safety and security scans on your Agent solution to check your risk posture before deploying it into production.
+MentorAI offers a rich set of features designed to make learning and onboarding seamless, personalized, and effective:
+- **Personalization:** MentorAI adapts its responses and learning paths based on the user's role, team, and goals. Whether you're in a mission-critical team or SFMC, the agent delivers relevant, focused support without overwhelming you.
+- **Real-Time Guidance:** Provides contextual help for navigating internal tools, understanding processes, and progressing through certification pathways. It acts like a knowledgeable peer who’s always available.
+- **Integration with Internal Resources:** Seamlessly connects to internal systems like SharePoint, Teams, and organizational APIs to surface the most relevant content and automate answers.
+- **Performance Nudges:** Offers proactive suggestions and reminders to help users stay on track with learning goals, certifications, and team expectations.
+- **Scalable Architecture:** Designed to be modular and extensible, MentorAI can easily be adapted to support new roles, departments, and organizational needs.
+- **Knowledge Democratization:** Makes expert insights accessible to everyone, reducing dependency on tribal knowledge and enabling faster ramp-up times for new employees.
+- **Conversational Interface:** Intuitive chat experience for seamless interaction
 
 <br/>
 
